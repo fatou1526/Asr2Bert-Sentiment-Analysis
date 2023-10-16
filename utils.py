@@ -27,9 +27,9 @@ config = {
     "trainfile": "/kaggle/input/allocine-movies-review/train.csv",
     "testfile": "/kaggle/input/allocine-movies-review/test.csv",
     "valfile": "/kaggle/input/allocine-movies-review/valid.csv",
-    "batch_size": 2,
+    "batch_size": 10,
     "learning_rate": 2e-5,
-    "n_epochs": 3,
+    "n_epochs": 4,
     "n_classes": 1,
     "device": torch.device("cuda" if torch.cuda.is_available else "cpu")
 
